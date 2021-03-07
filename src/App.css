@@ -1,0 +1,85 @@
+ .App {
+  font-family:Montserrat,sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  height: 100vh;
+ 
+  color: balck;
+  background-color:  #bef0ed;
+}
+
+h2{
+  font-size: 6rem;
+}
+
+
+.button{
+ display: flex;
+flex-flow: row;
+  gap: 10rem;
+  
+}
+
+.button1{
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray200;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: inherit;
+    border-radius: 20%;
+    height: 5rem;
+    width: 5rem;
+    font-weight: bold;
+  cursor: pointer;  
+    outline: none;
+    
+
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.button2{
+  border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray200;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: inherit;
+    border-radius: 20%;
+    height: 5rem;
+    width: 5rem;
+    font-weight: bold;
+  cursor: pointer;  
+    outline: none;
+    
+
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+
+.greaterthanhundred {
+  color: red;
+  animation: pulse 500ms ease-in-out;
+}
+
+.lessthanfive {
+  color: green;
+  animation: pulse 500ms ease-in-out;
+}
+
+    /* *hover {
+      background-color: gray200;
+    }
+
+     &:active {
+      transform: scale(0.9);
+    }  */ 
+
+  
+   
+
+
+ 
